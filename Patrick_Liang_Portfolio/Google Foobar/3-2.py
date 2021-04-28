@@ -36,4 +36,3 @@ def recursiveMinus(M,F,generations):
         generations = recursiveMinus(M,F,generations)
         return generations
 
-print(solution(1, 2))

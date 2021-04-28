@@ -10,5 +10,3 @@ def solution(l, t):
                 return [c, c+i+1]
     return[-1, -1]
     
-
-print(solution([1,9,2,1,2], 11))

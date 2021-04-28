@@ -10,5 +10,4 @@ def solution(string):
             newString += c
     return newString
 
-print(solution("1234poop the poop team leader! Justin poopoo"))
 

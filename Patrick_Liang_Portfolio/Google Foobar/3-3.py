@@ -17,5 +17,3 @@ def check(i,j,l):
         if l[k] % l[j] == 0:
             counter += 1
     return counter
-
-print(solution([1,2,3,4,5,6]))
