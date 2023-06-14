@@ -1,0 +1,29 @@
+2-1:
+How do you explain the low coverage for the first covergroup?
+The cross coverpoint is trying to cover situations which are not possible for this
+specific state machine. These cross coverpoints need to be ignored.
+
+2-2:
+How do you explain the low coverage for the fourth covergroup?
+It is not possible for both swap_registers and subtract_registers to be 1 at the same
+time. That scenario needs to be in an illegal_bin.
+
+3:
+Modifications:
+- Added ignore bins for the first covergroup
+- Added 10000 5000 to mod_input_data for second covergroup
+- Third covergroup was already at 100%
+- Added illegal bin for fourth covergroup
+
+5-1:
+How did you generate an input_data file with a thousand input lines, randomly generated, such that all pairs (a_in, b_in) are relatively prime, and each input number is at least 10000.
+I used class based random generation like we did in HW 7. The constraints are a >= 10000, 
+b >= 10000, and a % b == 1. The last constraint makes sure that the a and b are relatively
+prime. This class instance is then randomized 1000 times and printed into rp_input_data 
+using a repeat statement.
+
+5-2:
+Runtime w/o cvr_silly: 673 seconds
+
+5-3:
+Runtime w cvr_silly: 693 seconds

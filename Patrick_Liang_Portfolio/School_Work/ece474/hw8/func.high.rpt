@@ -1,0 +1,336 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb
+=== Design Unit: work.tb
+=================================================================================
+
+Directive Coverage:
+    Directives                       1         1         0   100.00%
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/tb/cover__cvr_seq                       tb     Verilog  SVA  tb.sv(34)          3 Covered   
+
+=================================================================================
+=== Instance: /tb_sv_unit
+=== Design Unit: work.tb_sv_unit
+=================================================================================
+
+Covergroup Coverage:
+    Covergroups                      4        na        na   100.00%
+        Coverpoints/Crosses          8        na        na        na
+            Covergroup Bins         32        32         0   100.00%
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /tb_sv_unit/cg_fsm_state                        100.00%        100          -    Covered              
+    covered/total bins:                                    15         15          -                      
+    missing/total bins:                                     0         15          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_fsm_ps                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_fsm_ns                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cp_fsm_both                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/tb/cg_1_inst                   100.00%        100          -    Covered              
+    covered/total bins:                                    15         15          -                      
+    missing/total bins:                                     0         15          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_fsm_ps                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[TEST]                                   2187          1          -    Covered              
+        bin auto[SWAP]                                     60          1          -    Covered              
+        bin auto[SUBT]                                   2175          1          -    Covered              
+        bin auto[DONE]                                     44          1          -    Covered              
+    Coverpoint cp_fsm_ns                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[TEST]                                   2187          1          -    Covered              
+        bin auto[SWAP]                                     60          1          -    Covered              
+        bin auto[SUBT]                                   2175          1          -    Covered              
+        bin auto[DONE]                                     44          1          -    Covered              
+    Cross cp_fsm_both                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[DONE],auto[DONE]>                    32          1          -    Covered              
+            bin <auto[DONE],auto[TEST]>                    12          1          -    Covered              
+            bin <auto[SUBT],auto[TEST]>                  2175          1          -    Covered              
+            bin <auto[SWAP],auto[SUBT]>                    60          1          -    Covered              
+            bin <auto[TEST],auto[DONE]>                    12          1          -    Covered              
+            bin <auto[TEST],auto[SUBT]>                  2115          1          -    Covered              
+            bin <auto[TEST],auto[SWAP]>                    60          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin ignore_bin9                          0                     -    ZERO                 
+            ignore_bin ignore_bin8                          0                     -    ZERO                 
+            ignore_bin ignore_bin7                          0                     -    ZERO                 
+            ignore_bin ignore_bin6                          0                     -    ZERO                 
+            ignore_bin ignore_bin5                          0                     -    ZERO                 
+            ignore_bin ignore_bin4                          0                     -    ZERO                 
+            ignore_bin ignore_bin3                          0                     -    ZERO                 
+            ignore_bin ignore_bin2                          0                     -    ZERO                 
+            ignore_bin ignore_bin1                          0                     -    ZERO                 
+ TYPE /tb_sv_unit/cg_op_mon                           100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_gcd_op                              100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/tb/cg_2_inst                   100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_gcd_op                              100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_1                                         427          1          -    Covered              
+        bin bin_2                                          87          1          -    Covered              
+        bin bin_3                                          89          1          -    Covered              
+        bin bin_4                                          15          1          -    Covered              
+        bin bin_5                                           6          1          -    Covered              
+        bin bin_6                                           8          1          -    Covered              
+ TYPE /tb_sv_unit/cg_fsm_ps_mon                       100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_gdc_ps_mon                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/tb/cg_3_inst                   100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_gdc_ps_mon                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin illegal                                 0                     -    ZERO                 
+        bin auto[TEST]                                   2187          1          -    Covered              
+        bin auto[SWAP]                                     60          1          -    Covered              
+        bin auto[SUBT]                                   2175          1          -    Covered              
+        bin auto[DONE]                                     44          1          -    Covered              
+ TYPE /tb_sv_unit/cg_reg_mon                          100.00%        100          -    Covered              
+    covered/total bins:                                     7          7          -                      
+    missing/total bins:                                     0          7          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_swap_reg                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_sub_reg                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cp_both_reg                                 100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/tb/cg_4_inst                   100.00%        100          -    Covered              
+    covered/total bins:                                     7          7          -                      
+    missing/total bins:                                     0          7          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_swap_reg                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_0                                        4406          1          -    Covered              
+        bin bin_1                                          60          1          -    Covered              
+    Coverpoint cp_sub_reg                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_0                                        2291          1          -    Covered              
+        bin bin_1                                        2175          1          -    Covered              
+    Cross cp_both_reg                                 100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <bin_0,bin_1>                            2175          1          -    Covered              
+            bin <bin_1,bin_0>                              60          1          -    Covered              
+            bin <bin_0,bin_0>                            2231          1          -    Covered              
+        Illegal and Ignore Bins:
+            illegal_bin illegal                             0                     -    ZERO                 
+
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal       Bins    Status               
+                                                                                                         
+----------------------------------------------------------------------------------------------------------
+ TYPE /tb_sv_unit/cg_fsm_state                        100.00%        100          -    Covered              
+    covered/total bins:                                    15         15          -                      
+    missing/total bins:                                     0         15          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_fsm_ps                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_fsm_ns                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cp_fsm_both                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/tb/cg_1_inst                   100.00%        100          -    Covered              
+    covered/total bins:                                    15         15          -                      
+    missing/total bins:                                     0         15          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_fsm_ps                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[TEST]                                   2187          1          -    Covered              
+        bin auto[SWAP]                                     60          1          -    Covered              
+        bin auto[SUBT]                                   2175          1          -    Covered              
+        bin auto[DONE]                                     44          1          -    Covered              
+    Coverpoint cp_fsm_ns                              100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin auto[TEST]                                   2187          1          -    Covered              
+        bin auto[SWAP]                                     60          1          -    Covered              
+        bin auto[SUBT]                                   2175          1          -    Covered              
+        bin auto[DONE]                                     44          1          -    Covered              
+    Cross cp_fsm_both                                 100.00%        100          -    Covered              
+        covered/total bins:                                 7          7          -                      
+        missing/total bins:                                 0          7          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <auto[DONE],auto[DONE]>                    32          1          -    Covered              
+            bin <auto[DONE],auto[TEST]>                    12          1          -    Covered              
+            bin <auto[SUBT],auto[TEST]>                  2175          1          -    Covered              
+            bin <auto[SWAP],auto[SUBT]>                    60          1          -    Covered              
+            bin <auto[TEST],auto[DONE]>                    12          1          -    Covered              
+            bin <auto[TEST],auto[SUBT]>                  2115          1          -    Covered              
+            bin <auto[TEST],auto[SWAP]>                    60          1          -    Covered              
+        Illegal and Ignore Bins:
+            ignore_bin ignore_bin9                          0                     -    ZERO                 
+            ignore_bin ignore_bin8                          0                     -    ZERO                 
+            ignore_bin ignore_bin7                          0                     -    ZERO                 
+            ignore_bin ignore_bin6                          0                     -    ZERO                 
+            ignore_bin ignore_bin5                          0                     -    ZERO                 
+            ignore_bin ignore_bin4                          0                     -    ZERO                 
+            ignore_bin ignore_bin3                          0                     -    ZERO                 
+            ignore_bin ignore_bin2                          0                     -    ZERO                 
+            ignore_bin ignore_bin1                          0                     -    ZERO                 
+ TYPE /tb_sv_unit/cg_op_mon                           100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_gcd_op                              100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/tb/cg_2_inst                   100.00%        100          -    Covered              
+    covered/total bins:                                     6          6          -                      
+    missing/total bins:                                     0          6          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_gcd_op                              100.00%        100          -    Covered              
+        covered/total bins:                                 6          6          -                      
+        missing/total bins:                                 0          6          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_1                                         427          1          -    Covered              
+        bin bin_2                                          87          1          -    Covered              
+        bin bin_3                                          89          1          -    Covered              
+        bin bin_4                                          15          1          -    Covered              
+        bin bin_5                                           6          1          -    Covered              
+        bin bin_6                                           8          1          -    Covered              
+ TYPE /tb_sv_unit/cg_fsm_ps_mon                       100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_gdc_ps_mon                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/tb/cg_3_inst                   100.00%        100          -    Covered              
+    covered/total bins:                                     4          4          -                      
+    missing/total bins:                                     0          4          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_gdc_ps_mon                          100.00%        100          -    Covered              
+        covered/total bins:                                 4          4          -                      
+        missing/total bins:                                 0          4          -                      
+        % Hit:                                        100.00%        100          -                      
+        illegal_bin illegal                                 0                     -    ZERO                 
+        bin auto[TEST]                                   2187          1          -    Covered              
+        bin auto[SWAP]                                     60          1          -    Covered              
+        bin auto[SUBT]                                   2175          1          -    Covered              
+        bin auto[DONE]                                     44          1          -    Covered              
+ TYPE /tb_sv_unit/cg_reg_mon                          100.00%        100          -    Covered              
+    covered/total bins:                                     7          7          -                      
+    missing/total bins:                                     0          7          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_swap_reg                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Coverpoint cp_sub_reg                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+    Cross cp_both_reg                                 100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+ Covergroup instance \/tb/cg_4_inst                   100.00%        100          -    Covered              
+    covered/total bins:                                     7          7          -                      
+    missing/total bins:                                     0          7          -                      
+    % Hit:                                            100.00%        100          -                      
+    Coverpoint cp_swap_reg                            100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_0                                        4406          1          -    Covered              
+        bin bin_1                                          60          1          -    Covered              
+    Coverpoint cp_sub_reg                             100.00%        100          -    Covered              
+        covered/total bins:                                 2          2          -                      
+        missing/total bins:                                 0          2          -                      
+        % Hit:                                        100.00%        100          -                      
+        bin bin_0                                        2291          1          -    Covered              
+        bin bin_1                                        2175          1          -    Covered              
+    Cross cp_both_reg                                 100.00%        100          -    Covered              
+        covered/total bins:                                 3          3          -                      
+        missing/total bins:                                 0          3          -                      
+        % Hit:                                        100.00%        100          -                      
+        Auto, Default and User Defined Bins:
+            bin <bin_0,bin_1>                            2175          1          -    Covered              
+            bin <bin_1,bin_0>                              60          1          -    Covered              
+            bin <bin_0,bin_0>                            2231          1          -    Covered              
+        Illegal and Ignore Bins:
+            illegal_bin illegal                             0                     -    ZERO                 
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 4
+
+DIRECTIVE COVERAGE:
+--------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Hits Status    
+                                         Unit   UnitType                                     
+--------------------------------------------------------------------------------------------
+/tb/cover__cvr_seq                       tb     Verilog  SVA  tb.sv(34)          3 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.00%  COVERS: 1
+
+Total Coverage By Instance (filtered view): 100.00%
+

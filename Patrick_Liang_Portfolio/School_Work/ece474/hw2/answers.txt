@@ -1,0 +1,39 @@
+a. Total area: 1844.059011 um^2
+b. Types of cells: 24
+c. Number of cells: 333
+d. The block is named "alu_DW01_addsub_0". By looking at its name and sub-cells, this block looks like an 
+   implementation of a ripple adder/subtractor using full adders, and XOR gates.
+e. Start point: opcode[0]
+   End point: alu_zero
+   
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  opcode[0] (in)                           0.00       0.00 f
+  U152/QN (INVX0)                          0.20       0.20 r
+  U267/Q (XNOR2X1)                         0.18       0.38 r
+  U266/QN (NAND2X0)                        0.36       0.74 f
+  U265/QN (INVX0)                          0.08       0.82 r
+  U264/QN (NAND2X0)                        0.08       0.90 f
+  U260/QN (NAND3X0)                        0.06       0.95 r
+  r31/B[0] (alu_DW01_addsub_0)             0.00       0.95 r
+  r31/U8/Q (XOR2X1)                        0.15       1.11 r
+  r31/U1_0/CO (FADDX1)                     0.15       1.26 r
+  r31/U1_1/CO (FADDX1)                     0.13       1.39 r
+  r31/U1_2/CO (FADDX1)                     0.13       1.52 r
+  r31/U1_3/CO (FADDX1)                     0.13       1.65 r
+  r31/U1_4/CO (FADDX1)                     0.13       1.78 r
+  r31/U1_5/CO (FADDX1)                     0.13       1.92 r
+  r31/U1_6/CO (FADDX1)                     0.13       2.05 r
+  r31/U1_7/S (FADDX1)                      0.23       2.28 r
+  r31/SUM[7] (alu_DW01_addsub_0)           0.00       2.28 r
+  U247/Q (OR4X1)                           0.13       2.41 r
+  U245/QN (NOR2X0)                         0.16       2.57 f
+  U204/Q (AO222X1)                         0.22       2.79 f
+  U206/Q (AO222X1)                         0.22       3.01 f
+  U207/Q (AO221X1)                         0.12       3.14 f
+  U210/Q (OR2X1)                           0.07       3.20 f
+  alu_zero (out)                           0.00       3.20 f
+  data arrival time                                   3.20
+  -----------------------------------------------------------
+  (Path is unconstrained)

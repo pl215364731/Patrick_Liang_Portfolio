@@ -1,0 +1,6 @@
+read_sverilog  test.sv 
+compile
+#report_timing
+#report_area   
+#write -format verilog -hierarchy -output test.v
+#quit!

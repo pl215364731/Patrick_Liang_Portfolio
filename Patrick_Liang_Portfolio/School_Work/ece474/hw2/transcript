@@ -1,0 +1,44 @@
+# vsim gate_work.alu -c -voptargs="+acc" -t ns -do "gate_do.do" 
+# Start time: 15:30:30 on Apr 21,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  ModelSim SE-64 2021.2 Apr 14 2021 Linux 3.10.0-1160.83.1.el7.x86_64
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.alu(fast)
+# Loading work.alu_DW01_addsub_0(fast)
+# Loading work.XOR3X1(fast)
+# Loading work.FADDX1(fast)
+# Loading work.XOR2X1(fast)
+# Loading work.INVX0(fast)
+# Loading work.NOR2X0(fast)
+# Loading work.AND2X1(fast)
+# Loading work.OAI22X1(fast)
+# Loading work.NAND2X0(fast)
+# Loading work.AO21X1(fast)
+# Loading work.OA22X1(fast)
+# Loading work.NOR4X0(fast)
+# Loading work.AO221X1(fast)
+# Loading work.AO22X1(fast)
+# Loading work.NOR3X0(fast)
+# Loading work.AO222X1(fast)
+# Loading work.OR2X1(fast)
+# Loading work.AOI222X1(fast)
+# Loading work.NAND3X0(fast)
+# Loading work.NAND4X0(fast)
+# Loading work.OR4X1(fast)
+# Loading work.AND3X1(fast)
+# Loading work.MUX21X1(fast)
+# Loading work.XNOR2X1(fast)
+# do gate_do.do
+# End time: 15:30:31 on Apr 21,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

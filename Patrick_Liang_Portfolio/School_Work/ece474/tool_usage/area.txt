@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : test
+Version: L-2016.03-SP2
+Date   : Fri Apr  7 14:07:48 2023
+****************************************
+
+Library(s) Used:
+
+    saed90nm_typ (File: /nfs/guille/a1/cadlibs/synop_lib/SAED_EDK90nm/Digital_Standard_Cell_Library/synopsys/models/saed90nm_typ_pg.db)
+
+Number of ports:                           65
+Number of nets:                           131
+Number of cells:                           67
+Number of combinational cells:             67
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         32
+Number of references:                      10
+
+Combinational area:                597.186018
+Buf/Inv area:                      176.960007
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:              29.337377
+
+Total cell area:                   597.186018
+Total area:                        626.523395
+1

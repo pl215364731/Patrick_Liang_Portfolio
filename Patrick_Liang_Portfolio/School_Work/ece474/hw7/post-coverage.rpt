@@ -1,0 +1,257 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb/gcd_0/gcd_ctrl_0
+=== Design Unit: work.gcd_ctrl
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb/gcd_0/gcd_ctrl_0
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File gcd_ctrl.sv
+------------------------------------IF Branch------------------------------------
+    20                                     38683     Count coming in to IF
+    20              1                          6     
+    21              1                      38677     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------CASE Branch------------------------------------
+    25                                     39206     Count coming in to CASE
+    26              1                       1051     
+    28              1                      18613     
+    31              1                       1977     
+    32              1                      17564     
+                                               1     All False Count
+Branch totals: 5 hits of 5 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    26                                      1051     Count coming in to IF
+    26              2                        525     
+    27              1                        526     
+Branch totals: 2 hits of 2 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    28                                     18613     Count coming in to IF
+    28              2                        524     
+    29              1                       2217     
+    30              1                      15872     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb/gcd_0/gcd_ctrl_0 --
+
+  File gcd_ctrl.sv
+----------------Focused Expression View-----------------
+Line       35 Item    1  (ns == SWAP)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       36 Item    1  (ns == SUBT)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       37 Item    1  ((ns == DONE) && (ps == TEST))
+Expression totals: 2 of 2 input terms covered = 100.00%
+
+
+FSM Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    FSM States                       4         4         0   100.00%
+    FSM Transitions                  8         8         0   100.00%
+
+================================FSM Details================================
+
+FSM Coverage for instance /tb/gcd_0/gcd_ctrl_0 --
+
+FSM_ID: ps
+    Current State Object : ps
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  26                DONE                   3
+  28                TEST                   0
+  32                SUBT                   2
+  31                SWAP                   1
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    DONE                1054          
+                    TEST               18088          
+                    SUBT               17564          
+                    SWAP                1977          
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  26                   0                 525          DONE -> TEST                  
+  30                   1               15588          TEST -> SUBT                  
+  29                   2                1977          TEST -> SWAP                  
+  28                   3                 523          TEST -> DONE                  
+  32                   4               17563          SUBT -> TEST                  
+  20                   5                   1          SUBT -> DONE                  
+  31                   6                1976          SWAP -> SUBT                  
+  20                   7                   1          SWAP -> DONE                  
+
+
+    Summary                       Bins      Hits    Misses  Coverage
+    -------                       ----      ----    ------  --------
+        FSM States                   4         4         0   100.00%
+        FSM Transitions              8         8         0   100.00%
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      14        14         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb/gcd_0/gcd_ctrl_0 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File gcd_ctrl.sv
+    19              1                      38683     
+    20              1                          6     
+    21              1                      38677     
+    24              1                      39206     
+    26              1                        525     
+    27              1                        526     
+    28              1                        524     
+    29              1                       2217     
+    30              1                      15872     
+    31              1                       1977     
+    32              1                      17564     
+    35              1                      38158     
+    36              1                      38158     
+    37              1                      76313     
+
+=================================================================================
+=== Instance: /tb/gcd_0
+=== Design Unit: work.gcd
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12        12         0   100.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb/gcd_0
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File gcd.sv
+------------------------------------IF Branch------------------------------------
+    18                                     22334     Count coming in to IF
+    18              1                          6     
+    19              1                        525     
+    20              1                       1977     
+                                           19826     All False Count
+Branch totals: 4 hits of 4 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    25                                     37638     Count coming in to IF
+    25              1                          6     
+    26              1                        525     
+    27              1                       1977     
+    28              1                      17564     
+                                           17566     All False Count
+Branch totals: 5 hits of 5 branches = 100.00%
+
+------------------------------------IF Branch------------------------------------
+    33                                      1055     Count coming in to IF
+    33              1                          6     
+    34              1                        523     
+    35              1                        526     
+Branch totals: 3 hits of 3 branches = 100.00%
+
+
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      2         2         0   100.00%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb/gcd_0 --
+
+  File gcd.sv
+----------------Focused Expression View-----------------
+Line       38 Item    1  (result == register_b)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+----------------Focused Expression View-----------------
+Line       39 Item    1  (result < register_b)
+Expression totals: 1 of 1 input term covered = 100.00%
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      15        15         0   100.00%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb/gcd_0 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File gcd.sv
+    17              1                      22334     
+    18              1                          6     
+    19              1                        525     
+    20              1                       1977     
+    24              1                      37638     
+    25              1                          6     
+    26              1                        525     
+    27              1                       1977     
+    28              1                      17564     
+    32              1                       1055     
+    33              1                          6     
+    34              1                        523     
+    35              1                        526     
+    38              1                      20070     
+    39              1                      20070     
+
+=================================================================================
+=== Instance: /tb
+=== Design Unit: work.tb
+=================================================================================
+
+Assertion Coverage:
+    Assertions                       1         1         0   100.00%
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/tb/#ublk#1954#103/immed__105
+                     tb.sv(105)                         0          1
+
+
+ASSERTION RESULTS:
+--------------------------------------------------------------------
+Name                 File(Line)                   Failure      Pass 
+                                                  Count        Count
+--------------------------------------------------------------------
+/tb/#ublk#1954#103/immed__105
+                     tb.sv(105)                         0          1
+
+Total Coverage By Instance (filtered view): 100.00%
+

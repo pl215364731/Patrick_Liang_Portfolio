@@ -1,0 +1,3 @@
+read_sverilog alu.sv
+compile
+write -hierarchy -format verilog -output alu.gate.v

@@ -1,0 +1,1 @@
+qverify -c -od log -do propcheck.do

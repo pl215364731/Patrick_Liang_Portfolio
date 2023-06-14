@@ -1,0 +1,5 @@
+I was able to achieve 100% coverage but I felt the need to explain what I did since
+post_input_data has the exact same data as input_data. In pre-coverage.rpt it was 
+stated that 2 transitions are missing: SUBT -> DONE, SWAP -> DONE. These are not
+transitions that can happen just by modifying the data. I added some code in the tb
+to force a reset in SUBT and SWAP state in order to get coverage for those transitions.

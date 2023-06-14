@@ -1,0 +1,23 @@
+Patrick Liang
+Assignment 1
+1/12/2020
+
+Part 1:
+In ___ years, you will be living in a house that is ______ square feet.
+_____ feet under that house, you will find a box with a diamond worth _____ dollars.
+_____ of your neighbors will try to steal it from you.
+
+Part 2:
+FortuneTeller.cpp:96:1: error: expected ‘;’ before ‘}’ token
+ }
+
+This error means that I am missing a semicolon somewhere after a line of code but before the curly braket.
+To fix this error, simply find out where I am missing the semicoln and add it back in.
+
+Part 3:
+In 45 years, you will be living in a house that is 20 square feet.
+17 feet under that house, you will find a box with a diamond worth 493038 dollars.
+0 of your neighbors will try to steal it from you.
+
+One thing I can improve on this program is the format of my code. This is my first time coding so I don't
+exactly know if my coding format is correct. All I did was making it look clean and readable.

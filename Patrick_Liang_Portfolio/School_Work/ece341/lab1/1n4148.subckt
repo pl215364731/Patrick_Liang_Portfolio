@@ -1,0 +1,13 @@
+*
+.SUBCKT 1n4148 1 2
+* The Resistor R1 does not reflect a physical device.  Instead it
+* improves modeling in the reverse  mode of operation.
+*
+R1 1 2 6E+07
+D1 1 2 1N4148
+*
+*1N4148WS from Diodes Inc.
+.MODEL 1N4148 D ( IS=10.4n RS=51.5m BV=75.0 IBV=1.00u
++ CJO=2.00p  M=0.333 N=2.07 TT=5.76n )
+*
+.ENDS

@@ -1,0 +1,67 @@
+# //  ModelSim SE-64 2021.2 Apr 14 2021 Linux 3.10.0-1160.83.1.el7.x86_64
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim rtl_work.tb -voptargs="+acc" -t ns -do "do.do" 
+# Start time: 01:25:58 on May 13,2023
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.count(fast)
+# Loading work.count(fast__1)
+# Loading work.count(fast__2)
+# do do.do
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 1  Process: /tb/DUT_21/#implicit#unique__94 File: count.sv Line: 94
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 1  Process: /tb/DUT_21/#implicit#unique__64 File: count.sv Line: 64
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 1  Process: /tb/DUT_16/#implicit#unique__94 File: count.sv Line: 94
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 1  Process: /tb/DUT_16/#implicit#unique__64 File: count.sv Line: 64
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 1  Process: /tb/DUT_8/#implicit#unique__94 File: count.sv Line: 94
+# ** Warning: (vsim-8315) No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 1  Process: /tb/DUT_8/#implicit#unique__64 File: count.sv Line: 64
+# Test 1: time=                 120, a_in=11111010, sel=1, cntout=  2
+# 
+# Test 2: time=                 260, a_in=11111010, sel=2, cntout=  6
+# 
+# Test 3: time=                 400, a_in=zzzzzzzz, sel=1, cntout=  0
+# 
+# Test 4: time=                 540, a_in=zzzzzzzz, sel=2, cntout=  0
+# 
+# Test 5: time=                 760, a_in=1011110000000000, sel=1, cntout=   11
+# 
+# Test 6: time=                 980, a_in=1000111110101010, sel=2, cntout=    9
+# 
+# Test 7: time=                1200, a_in=zzzzzzzzzzzzzzzz, sel=1, cntout=    0
+# 
+# Test 8: time=                1420, a_in=zzzzzzzzzzzzzzzz, sel=2, cntout=    0
+# 
+# Test 9: time=                1690, a_in=101111000000110010100, sel=1, cntout=     12
+# 
+# Test 10: time=                1960, a_in=100011111010100001010, sel=2, cntout=     10
+# 
+# Test 11: time=                2230, a_in=zzzzzzzzzzzzzzzzzzzzz, sel=1, cntout=      0
+# 
+# Test 12: time=                2500, a_in=zzzzzzzzzzzzzzzzzzzzz, sel=2, cntout=      0
+# 
+# Test 13: time=                2640, a_in=11001010, sel=1, cntout=  4
+# 
+# Test 14: time=                2780, old a_in=11101010, new a_in=11111111, sel=2, cntout=  5
+# 
+# ** Note: $stop    : tb.sv(80)
+#    Time: 2815 ns  Iteration: 1  Instance: /tb
+# Break in Module tb at tb.sv line 80
+# End time: 01:29:10 on May 13,2023, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 6

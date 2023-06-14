@@ -1,0 +1,70 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : test
+Version: L-2016.03-SP2
+Date   : Fri Apr  7 14:07:38 2023
+****************************************
+
+Operating Conditions: TYPICAL   Library: saed90nm_typ
+Wire Load Model Mode: enclosed
+
+  Startpoint: b_in[1] (input port)
+  Endpoint: z_out (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  test               8000                  saed90nm_typ
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 f
+  b_in[1] (in)                             0.00       0.00 f
+  U42/QN (INVX0)                           0.05       0.05 r
+  U41/QN (NOR2X0)                          0.07       0.12 f
+  U40/QN (NOR2X0)                          0.06       0.17 r
+  U39/Q (AO22X1)                           0.11       0.28 r
+  U36/QN (NAND2X0)                         0.06       0.35 f
+  U35/Q (AO222X1)                          0.20       0.54 f
+  U34/Q (OA221X1)                          0.14       0.68 f
+  U33/Q (AO221X1)                          0.12       0.80 f
+  U32/Q (OA221X1)                          0.13       0.94 f
+  U31/Q (AO221X1)                          0.12       1.06 f
+  U30/Q (OA221X1)                          0.13       1.19 f
+  U29/Q (AO221X1)                          0.12       1.31 f
+  U28/Q (OA221X1)                          0.13       1.45 f
+  U27/Q (AO221X1)                          0.12       1.57 f
+  U26/Q (OA221X1)                          0.13       1.70 f
+  U25/Q (AO221X1)                          0.12       1.82 f
+  U24/Q (OA221X1)                          0.13       1.96 f
+  U23/Q (AO221X1)                          0.12       2.08 f
+  U22/Q (OA221X1)                          0.13       2.21 f
+  U21/Q (AO221X1)                          0.12       2.34 f
+  U20/Q (OA221X1)                          0.13       2.47 f
+  U19/Q (AO221X1)                          0.12       2.59 f
+  U18/Q (OA221X1)                          0.13       2.73 f
+  U17/Q (AO221X1)                          0.12       2.85 f
+  U16/Q (OA221X1)                          0.13       2.98 f
+  U15/Q (AO221X1)                          0.12       3.10 f
+  U14/Q (OA221X1)                          0.13       3.24 f
+  U13/Q (AO221X1)                          0.12       3.36 f
+  U12/Q (OA221X1)                          0.13       3.49 f
+  U11/Q (AO221X1)                          0.12       3.62 f
+  U10/Q (OA221X1)                          0.13       3.75 f
+  U9/Q (AO221X1)                           0.12       3.87 f
+  U8/Q (OA221X1)                           0.13       4.00 f
+  U6/Q (OA22X1)                            0.10       4.11 f
+  U5/Q (AO21X1)                            0.08       4.19 f
+  z_out (out)                              0.00       4.19 f
+  data arrival time                                   4.19
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
